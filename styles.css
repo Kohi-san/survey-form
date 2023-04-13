@@ -44,9 +44,14 @@ input[type="text"], input[type="email"] {
 fieldset {
     border: none;
     border-bottom: solid 3px rgb(112, 180, 210);
-    width: 40%;
+    width: 50%;
+    min-width: 260px;
     margin: 0 auto;
     text-align: left;
+}
+
+#number-label {
+    min-width: 240px;
 }
 
 #allergy {
