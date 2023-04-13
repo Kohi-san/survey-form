@@ -30,10 +30,28 @@ input[type="text"], input[type="email"] {
     min-height: 2em;
 }
 
+#accomodation-question {
+    margin-bottom: 10px;
+}
+
+.lodgings {
+    display: block;
+    margin-bottom: 10px;
+}
+
 fieldset {
     border: none;
     border-bottom: solid 3px rgb(112, 180, 210);
     width: 40%;
     margin: 0 auto;
     text-align: left;
+}
+
+#allergy {
+    display: block;
+    margin-bottom: 10px;
+}
+
+textarea {
+    width: 100%;
 }

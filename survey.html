@@ -16,14 +16,15 @@
                 <label for="attendees" id="number-label">How many are in your party? <input id="attendees" min="1" max="10" name="attendees" placeholder="1" type="number"></label>
             </fieldset>
             <fieldset id="accomodations">
-                <input type="radio" name="accomodation">
-                <input type="radio" name="accomodation">
-                <input type="radio" name="accomodation">
-                <select id="dropdown">
-                    <option></option>
-                    <option></option>
-                </select>
-                <textarea id="food-allergies"></textarea>
+                <p id="accomodation-question">Where will you be staying?</p>
+                <label for="resort" class="lodgings"><input checked id="resort" type="radio" name="accomodation" placeholder> Inside Resort</label>
+                <label for="cabin" class="lodgings"><input id="cabin" type="radio" name="accomodation"> Surrounding Cabins</label>
+                <label for="tent" class="lodgings"><input id="tent" type="radio" name="accomodation"> Campsite</label>
+                <label id="allergy" for="dropdown">Do you have any food allergies that we need to be aware of? <select id="dropdown">
+                    <option value="1">No</option>
+                    <option value="2">Yes</option>
+                </select></label>
+                <label>If you selected 'yes' above, please explain...<textarea id="food-allergies" placeholder="No dairy, no gluten etc." rows="3"></textarea></label>
             </fieldset>
             <fieldset id="activities">
                 <input type="checkbox" value="">
