@@ -7,40 +7,43 @@
         <title>Group Retreat Survey</title>
     </head>
     <body>
-        <h1 id="title">Coders4Life Retreat Survery</h1>
-        <p id="description">Please fill out this survey by 4/13 to RSVP</p>
-        <form id="survey-form">
-            <fieldset id="basics">
-                <label for="name" id="name-label">Enter your name: <input id="name" name="name" placeholder="Name" required type="text"></label>
-                <label for="email" id="email-label">Enter your email: <input id="email" name="email" placeholder="example@email.com" required type="email"></label>
-                <label for="attendees" id="number-label">How many are in your party? <input id="attendees" min="1" max="10" name="attendees" placeholder="1" type="number"></label>
-            </fieldset>
-            <fieldset id="accomodations">
-                <p id="accomodation-question">Where will you be staying?</p>
-                <label for="resort" class="lodgings"><input checked id="resort" type="radio" name="accomodation" placeholder> Inside Resort</label>
-                <label for="cabin" class="lodgings"><input id="cabin" type="radio" name="accomodation"> Surrounding Cabins</label>
-                <label for="tent" class="lodgings"><input id="tent" type="radio" name="accomodation"> Campsite</label>
-                <label id="allergy" for="dropdown">Do you have any food allergies that we need to be aware of? <select id="dropdown">
-                    <option value="1">No</option>
-                    <option value="2">Yes</option>
-                </select></label>
-                <label>If you selected 'yes' above, please explain...<textarea id="food-allergies" placeholder="No dairy, no gluten etc." rows="3"></textarea></label>
-            </fieldset>
-            <fieldset id="activities">
-                <p>Which classes do you plan on attending during the retreat?</p>
-                <label for="frontend" class="checkboxes"><input id="frontend" type="checkbox" value="frontend"> Frontend Development</label>
-                <label for="backend" class="checkboxes"><input id="backend" type="checkbox" value="backend"> Backend Development</label>
-                <label for="web-dev" class="checkboxes"><input id="web-dev" type="checkbox" value="web-dev"> Web Development</label>
-                <label for="ML" class="checkboxes"><input id="ML" type="checkbox" value="ML"> Machine Learning</label>
-                <label for="vision" class="checkboxes"><input id="vision" type="checkbox" value="vision"> Computer Vision</label>
-                <label for="NLP" class="checkboxes"><input id="NLP" type="checkbox" value="NLP"> Computational Lingustics</label>
-                <label for="OS" class="checkboxes"><input id="OS" type="checkbox" value="OS"> Operating Systems</label>
-                <label for="IoT" class="checkboxes"><input id="IoT" type="checkbox" value="IoT"> IoT</label>
-                <label for="security" class="checkboxes"><input id="security" type="checkbox" value="security"> Computer Security</label>
-                <label for="networking" class="checkboxes"><input id="networking" type="checkbox" value="networking"> Networked Systems</label>
-                <label for="algos" class="checkboxes"><input id="algos" type="checkbox" value="algos"> Algorithms</label>
-            </fieldset>
-            <input type="submit" id="submit">
-        </form>
+        <div class="center">
+            <h1 id="title">Coders4Life Retreat Survery</h1>
+            <p id="description">Please fill out this survey by 4/13 to RSVP</p>
+            <form id="survey-form">
+                <fieldset id="basics">
+                    <label for="name" id="name-label">Enter your name: <input id="name" name="name" placeholder="Name" required type="text"></label>
+                    <label for="email" id="email-label">Enter your email: <input id="email" name="email" placeholder="example@email.com" required type="email"></label>
+                    <label for="attendees" id="number-label">How many are in your party? <input id="attendees" min="1" max="10" name="attendees" placeholder="1" type="number"></label>
+                </fieldset>
+                <fieldset id="accomodations">
+                    <p id="accomodation-question">Where will you be staying?</p>
+                    <label for="resort" class="lodgings"><input checked id="resort" type="radio" name="accomodation" placeholder> Inside Resort</label>
+                    <label for="cabin" class="lodgings"><input id="cabin" type="radio" name="accomodation"> Surrounding Cabins</label>
+                    <label for="tent" class="lodgings"><input id="tent" type="radio" name="accomodation"> Campsite</label>
+                    <label id="allergy" for="dropdown">Do you have any food allergies that we need to be aware of? <select id="dropdown">
+                        <option value="1">No</option>
+                        <option value="2">Yes</option>
+                    </select></label>
+                    <label>If you selected 'yes' above, please explain...<textarea id="food-allergies" placeholder="No dairy, no gluten etc." rows="3"></textarea></label>
+                </fieldset>
+                <fieldset id="activities">
+                    <p>Which classes do you plan on attending during the retreat?</p>
+                    <label for="frontend" class="checkboxes"><input id="frontend" type="checkbox" value="frontend"> Frontend Development</label>
+                    <label for="backend" class="checkboxes"><input id="backend" type="checkbox" value="backend"> Backend Development</label>
+                    <label for="web-dev" class="checkboxes"><input id="web-dev" type="checkbox" value="web-dev"> Web Development</label>
+                    <label for="ML" class="checkboxes"><input id="ML" type="checkbox" value="ML"> Machine Learning</label>
+                    <label for="vision" class="checkboxes"><input id="vision" type="checkbox" value="vision"> Computer Vision</label>
+                    <label for="NLP" class="checkboxes"><input id="NLP" type="checkbox" value="NLP"> Computational Lingustics</label>
+                    <label for="OS" class="checkboxes"><input id="OS" type="checkbox" value="OS"> Operating Systems</label>
+                    <label for="IoT" class="checkboxes"><input id="IoT" type="checkbox" value="IoT"> IoT</label>
+                    <label for="security" class="checkboxes"><input id="security" type="checkbox" value="security"> Computer Security</label>
+                    <label for="networking" class="checkboxes"><input id="networking" type="checkbox" value="networking"> Networked Systems</label>
+                    <label for="algos" class="checkboxes"><input id="algos" type="checkbox" value="algos"> Algorithms</label>
+                </fieldset>
+                <input type="submit" id="submit">
+            
+            </form>
+        </div>
     </body>
 </html>
