@@ -31,7 +31,7 @@ input[type="text"], input[type="email"] {
 }
 
 #accomodation-question {
-    margin-bottom: 10px;
+    margin: 10px 0;
 }
 
 .lodgings {
@@ -54,4 +54,13 @@ fieldset {
 
 textarea {
     width: 100%;
+}
+
+.checkboxes {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.checkboxes:first-of-type {
+    margin-top: -8px;
 }
