@@ -10,11 +10,33 @@
         <h1 id="title">Coders4Life Retreat Survery</h1>
         <p id="description">Please fill out this survey by 4/13 to RSVP</p>
         <form id="survey-form">
-            <fieldset>
+            <fieldset id="basics">
                 <label id="name-label"><input id="name" placeholder="Name" required type="text"></label>
                 <label id="email-label"><input id="email" placeholder="example@email.com" required type="email"></label>
                 <label id="number-label"><input min="1" max="10" placeholder="1" type="number"></label>
             </fieldset>
+            <fieldset id="accomodations">
+                <input type="radio" name="accomodation">
+                <input type="radio" name="accomodation">
+                <input type="radio" name="accomodation">
+                <select id="dropdown">
+                    <option></option>
+                    <option></option>
+                </select>
+                <textarea id="food-allergies"></textarea>
+            </fieldset>
+            <fieldset id="activities">
+                <input type="checkbox" value="">
+                <input type="checkbox" value="">
+                <input type="checkbox" value="">
+                <input type="checkbox" value="">
+                <input type="checkbox" value="">
+                <input type="checkbox" value="">
+                <input type="checkbox" value="">
+                <input type="checkbox" value="">
+                <input type="checkbox" value="">
+            </fieldset>
+            <input type="submit" id="submit">
         </form>
     </body>
 </html>
